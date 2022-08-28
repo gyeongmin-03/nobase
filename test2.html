@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML 태그정리</title>
+    </head>
+    <body>
+        <p style="font-size: 100px;">텍스트 요소 태그 </p>
+
+        <p style="font-size: 50px;">제목 태그 " h1~h6 "</p>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <hr>
+
+        <p style="font-size: 50px;">단락 태그 " p "</p>
+        <p>단락</p>
+        <hr>
+
+        <p style="font-size: 50px;">줄나누기 태그 " br "</p>
+        <p>
+            줄 나누기<br>
+            줄 나누기<br>
+        </p>
+        <hr>
+
+        <p style="font-size: 50px;">미리 정의된 서식 태그 " pre "</p>
+        <pre>
+            텍스트 서식
+            서식을      그대로     출력
+            서식    출력
+        </pre>
+        <hr>
+
+        <p style="font-size: 50px;">수평선 태그 " hr "</p>
+        <p>단락</p>
+        <hr>
+        <p>단락</p>
+        <hr>
+        <p>단락</p>
+        <hr>
+
+        <p style="font-size: 50px;">굵은 글자 태그 " b, strong "</p>
+        <b>굵게</b><br>
+        <strong>굵게2</strong>
+        <hr>
+
+        <p style="font-size: 50px;">기울기 글자 태그 " i, em "</p>
+        <i>기우러진 글자</i>
+        <em>기우러진 글자2</em>
+        <hr>
+
+        <p style="font-size: 50px;">작은 글자 태그 " small "</p>
+        <small>작은 글자</small> 보통글자
+        <hr>
+
+        <p style="font-size: 50px;">밑줄 글자 태그 " ins "</p>
+        <ins>밑줄 글자</ins>
+        <hr>
+
+        <p style="font-size: 50px;">가운데선 글자 태그 " del "</p>
+        <del>가운데선 글자</del>
+        <hr>
+
+        <p style="font-size: 50px;">하이라이트 글자 태그 " mark "</p>
+        <mark>하이라이트 글자</mark>
+        <hr>
+
+        <p style="font-size: 50px;">코드 태그 " code "</p>
+        <code>코드 글자</code>
+        <hr>
+
+        <p style="font-size: 50px;">위 첨자 태그 " sup "</p>
+        <sup>위 첨자</sup>
+        <hr>
+
+        <p style="font-size: 50px;">아래 첨자 태그 " sub "</p>
+        <sub>아래 첨자</sub>
+        <hr>
+
+        <br><br><br><br><br><br><br><br>
+
+        <p style="font-size: 100px;">인용 태그 </p>
+
+        <p style="font-size: 50px;">인용구 " q "</p>
+        <q>인용구</q>
+        <hr>
+
+        <p style="font-size: 50px;">블록 인용구 " blockquote "</p>
+        <blockquote>블록 인용구</blockquote>
+        <hr>
+
+        <p style="font-size: 50px;">약어 " abbr "</p>
+        <abbr title="">약어</abbr>
+        <hr>
+
+        <p style="font-size: 50px;">인용 " cite "</p>
+        <cite>인용</cite>
+        <hr>
+
+        <p style="font-size: 50px;">주소 " address "</p>
+        <address>주소</address>
+        <hr>
+
+        <br><br><br><br><br><br><br><br>
+        
+        <p style="font-size: 100px;">앵커 태그 " a "</p>
+        <a href="https://www.google.co.kr/">구글</a><br>
+        <a href="https://www.google.co.kr/" target="_blank">구글.새로운창(_blank)</a><br>
+        <a href="https://www.google.co.kr/"  target="_self">구글.현재창(_self)</a><br>
+        <a href="https://www.google.co.kr/" target="_parent">구글.웹 브라우저 부모창(_parent)</a><br>
+        <a href="https://www.google.co.kr/" target="_top">구글.웹 브라우저 전체 영역(_top)</a><br><br>
+        <a href="#content1">Content 1</a>
+        <a href="#content2">Content 2</a>
+        <a href="#content3">Content 3</a>
+        <h1 id="content1">Content 1</h1>
+        <h1 id="content2">Content 2</h1>
+        <h1 id="content3">Content 3</h1>
+        <hr>
+
+        <br><br><br><br><br><br><br><br>
+        
+        <p style="font-size: 100px;">리스트 태그 " table "</p>
+        
+        <p style="font-size: 50px;">순서가 없는 리스트(unordered list) " ul "</p>
+        <ul>
+            <li>ul 테그를 사용하여 전체 리스트 표현</li>
+            <li>li 태그를 사용하여 각항목을 입력</li>
+            <li>list item  (li)</li>
+        </ul> 
+        <ul style="list-style-type: circle">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <ul style="list-style-type: square">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <p style="font-size: 50px;">순서가 있는 리스트(ordered list) " ul "</p>
+        <ol>
+            <li>ol 태그를 사용하여 전체 리스트 표현</li>
+            <li>type = "1"</li>
+            <li>기본적으로 type을 안쓰면 숫자 형식 리스트</li>
+        </ol>
+        <ol type="i">
+            <li>type = "i"</li>
+            <li>ㅇㅅㅇ</li>
+            <li>ㅋㅅㅋ</li>
+        </ol>
+        <ol type="A">
+            <li>type = "A"</li>
+            <li>ㅇㅅㅇ</li>
+            <li>ㅋㅅㅋ</li>
+        </ol>
+        <ol type="I">
+            <li>type = "I" (대문자 i)</li>
+            <li>ㅇㅅㅇ</li>
+            <li>ㅋㅅㅋ</li>
+        </ol>
+        <ol type="a">
+            <li>type = "a"</li>
+            <li>ㅇㅅㅇ</li>
+            <li>ㅋㅅㅋ</li>
+        </ol>
+
+        <p style="font-size:50px;">정의 리스트 " dl "</p>
+        <dl>
+            <dt>"dl 태그를 사용하여 전체 리스트 표현"</dt>
+            <dd>"각 항목은 dt 태그를 사용하며 각 설명은 dd태그를 사용"</dd>
+            <dt>CSS</dt>
+            <dd>마크업 언어가 실제 표시되는 방법을 기술하는 언어</dd>
+            <dt>JavaScript</dt>
+            <dd>웹 브라우저 내에서 주로 사용되는 객체 기반의 스크립트 프로그래밍 언어</dd>
+        </dl>
+        <hr>
+
+        <br><br><br><br><br><br><br><br>
+
+        
+        
+        <p style="font-size: 100px;">테이블 태그</p>
+        
+        <table border="1">
+            <caption>테이블 1</caption>
+            <tr>
+              <th>태그</th>
+              <th>설명</th>
+            </tr>
+            <tr>
+              <td>table</td>
+              <td>테이블 생성</td>
+            </tr>
+            <tr>
+              <td>tr</td>
+              <td>테이블의 행(row) 생성</td>
+            </tr>
+            <tr>
+                <td>th</td>
+                <td>테이블의 헤드(head) 생성</td>
+            </tr>
+            <tr>
+                <td>td</td>
+                <td>테이블의 데이터(data) 생성</td>
+            </tr>
+            <tr>
+                <td>caption</td>
+                <td>테이블의 제목 생성</td>
+            </tr>
+            <tr>
+                <td>[rowspan]</td>
+                <td>셀을 세로로 병합, 병합하고 싶은 행의 수를 설정</td>
+            </tr>
+            <tr>
+                <td>[colspan]</td>
+                <td>셀을 가로로 병합, 병합하고 싶은 열의 수를 설정</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table border="2">
+            <caption>시간표</caption>
+            <thead>
+                <tr>
+                    <th rowspan=2>교시</th>
+                    <th colspan=5>요일</th>
+                </tr>
+                <tr>
+                    <th>월</th>
+                    <th>화</th>
+                    <th>수</th>
+                    <th>목</th>
+                    <th>금</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1교시</td>
+                    <td>컴퓨터개론</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2교시</td>
+                    <td></td>
+                    <td>머신러닝</td>
+                    <td></td>
+                    <td>웹과인터넷</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3교시</td>
+                    <td></td>
+                    <td></td>
+                    <td>프로그래밍</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4교시</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+        
+        <br><br><br><br><br><br><br><br>
+        
+        <p style="font-size: 100px;">멀티미디어 태그</p>
+
+        <p style="font-size : 50px">이미지 태그 " img "</p>
+        <img src="https://cdn.discordapp.com/attachments/918371355731304490/990893497332678666/1.jpg" 
+        alt="오류" style="width: 230px; height: 300px; float: left;">
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <hr>
+        
+        <br><br><br><br><br><br><br><br>
+
+        <p style="font-size: 50px;">오디오 태그 " audio "</p>
+
+        <hr>
+        
+        <br><br><br><br><br><br><br><br>
+
+        <p style="font-size: 50px;">비디오 태그 " video "</p>
+
+        <hr>
+
+        <br><br><br><br><br><br><br><br>
+
+        <p style="font-size: 100px;">공간분할 태그</p>
+
+        <p style="font-size: 50px;">블록 분할 태그 " div "</p>
+        <div style="border: 1px solid black ;">Block</div>
+
+
+        <p style="font-size: 50px;">인라인 분할 태그 " span "</p>
+        <span style="background-color: aqua;">Inline</span>
+        
+        <p style="font-size: 50px;">아이프레임 태그</p>
+        <iframe src="basic.html" name="iframe_a" height="500px" width="400" title="Iframe Example"></iframe>
+        <p><a href="http://www.suanlab.com" target="iframe_a">SuanLab.com</a></p>
+
+        <span><a href="http://www.suanlab.com" target="if1">SuanLab</a></span> | 
+        <span><a href="http://www.suanlab.com/youtube.html" target="if1">SuanLab Youtube</a></span><br>
+        <iframe name="if1" width="700px" height="300px"></iframe>
+
+        <hr>
+
+        <br><br><br><br><br><br><br><br>
+
+        <p style="font-size: 100px;">입력 양식 태그</p>
+        <p style="font-size: 50px;">폼 태그</p>
+        <form name="이름" action="sign.jsp" method="post">
+            <input type="text" name="name1" value="value1">
+        </form>
+
+        <hr>
+
+        <p style="font-size: 50px;">폼 요소</p>
+        <p style="font-size: 25px;">input 태그</p>
+        <label for="name">이름:</label>
+        <input type="text" id="name" name="name" value="Suan" size="20">
+
+
+        <p style="font-size: 25px;">select 태그</p>
+        <select id="food" name="food">
+            <option value="pizza" selected>피자</option>
+            <option value="hamburger">햄버거</option>
+            <option value="pasta">파스타</option>
+        </select>
+        
+
+        <p style="font-size: 25px;">select 태그(다중선택)</p>
+        <select id="food" name="food" multiple>
+            <option value="pizza" selected>피자</option>
+            <option value="hamburger">햄버거</option>
+            <option value="pasta">파스타</option>
+        </select>
+          
+
+        <p style="font-size: 25px; size: 50px;">select 태그(그룹)</p>
+        <select id="food" name="food" multiple>
+            <optgroup label="음식">
+              <option value="pizza" selected>피자</option>
+              <option value="hamburger">햄버거</option>
+              <option value="pasta">파스타</option>
+            </optgroup>
+            <optgroup label="후식">
+              <option value="cola">콜라</option>
+              <option value="coffee"">커피</option>
+              <option value="icecream">아이스크림</option>
+            </optgroup>
+        </select>
+
+        <p style="font-size: 25px; size: 50px;">textarea 태그(그룹)</p>
+        <textarea name="article" rows="20" cols="30">
+            텍스트 
+        </textarea>
+
+
+        <p style="font-size: 25px;">button 태그</p>
+        <button>Button</button>
+
+
+        <p style="font-size: 25px;">fieldset, legend 태그</p>
+        <form>
+            <fieldset>
+              <legend>개인정보</legend>
+              <label for="name">이름:</label><br>
+              <input type="text" id="name" name="name" value="Suan"><br>
+              <label for="affiliation">소속:</label><br>
+              <input type="text" id="affiliation" name="affiliation" value="SuanLab"><br><br>
+              <input type="submit" value="전송">
+            </fieldset>
+        </form>
+
+        <p style="font-size: 25px;">datalist 태그</p>
+        <form>
+            <input list="browsers">
+            <datalist id="browsers">
+              <option value="Chrome"></option>
+              <option value="Firefox"></option>
+              <option value="Internet Explorer"></option>
+              <option value="Opera"></option>
+              <option value="Safari"></option>
+            </datalist>
+        </form>
+
+        <p style="font-size: 25px;">output 태그</p>
+        <form oninput="r.value=parseInt(x.value)*parseInt(y.value)">
+            <input type="number" id="x" name="x" value="10">
+            *
+            <input type="number" id="y" name="y" value="20">
+            =
+            <output name="r" for="x y"></output>
+            <br><br>
+            <input type="submit">
+        </form>
+
+        <p style="font-size: 50px;">입력 형식</p>
+
+        <p>input 태그를 `form` ~ `/form` 내부에서 사용되며, `type` 속성에 데이터 입력 양식 지정</p>
+        <p>- 주요 공통 속성</p>
+        <p>- `readonly` : 읽기 전용</p>
+        <p>- `disabled` : 비활성화</p>
+        <p>- `autocomplete` : 자동 완성</p>
+        <p>- `autofocus` : 웹 페이지 로드시 초기에 포커싱 설정</p>
+        <p>- `placeholder` : 입력 폼에 희미하게 설명을 보여줌</p>
+        <p>- `required` : 필수 속성</p>
+        <p>- `spellcheck` : 오타 점검</p>
+
+        <p style="font-size: 25px;">text 타입(텍스트 입력에 사용)</p>
+        <input type="text" name="text" size="20">
+
+        <p style="font-size: 25px;">password 타입(비밀번호 사용)</p>
+        <input type="password" name="password" required>
+
+        <p style="font-size: 25px;">button 타입(버튼 모양에 사용)</p>
+        <input type="button" value="Button">
+
+        <p style="font-size: 25px;">radio 타입(여러 개의 항목 중에서 하나를 선택할 때 사용)</p>
+        <input type="radio" name="gender" value="male">남자
+        <input type="radio" name="gender" value="female">여자
+
+        <p style="font-size: 25px;">checkbox 타입(여러 개의 항목 중에서 여러개를 선택할 때 사용)</p>
+        <input type="checkbox" name="food" value="pizza">피자<br>
+        <input type="checkbox" name="food" value="hamburger">햄버거<br>
+        <input type="checkbox" name="food" value="pasta">파스타<br>
+
+        <p style="font-size: 25px;">date 타입(날짜를 입력할 때 사용)</p>
+        <input type="date" name="date" min="2020-01-01" max="2020-12-31">
+
+        <p style="font-size: 25px;">month 타입(월과 년도를 입력할 때 사용)</p>
+        <input type="month" id="month" name="month">
+
+        <p style="font-size: 25px;">week 타입(주를 입력할 때 사용)</p>
+        <input type="week" id="week" name="week">
+
+        <p style="font-size: 25px;">time 타입(시간을 입력할 때 사용)</p>
+        <input type="time" id="time" name="time">
+
+        <p style="font-size: 25px;">datetime-local 타입(날짜/시간을 입력할 때 사용)</p>
+        <input type="datetime-local" id="datetime" name="datetime">
+
+        <p style="font-size: 25px;">color 타입(색상을 선택할 때 사용)</p>
+        <input type="color" name="color">
+
+        <p style="font-size: 25px;">number 타입(숫자를 입력할 때 사용)</p>
+        <input type="number" name="num" min="0" max="1000">
+
+        <p style="font-size: 25px;">range 타입(범위를 지정할 때 사용)</p>
+        <input type="range" name="point" min="0" max="100">
+
+        <p style="font-size: 25px;">email 타입(email을 입력할 때 사용, 이메일 형식을 자동 체킹)</p>
+        <input type="email" name="email">
+
+        <p style="font-size: 25px;">url 타입(url를 입력할 때 사용, url 형식을 자동 체킹)</p>
+        <input type="url" name="myUrl">
+
+        <p style="font-size: 25px;">tel 타입(전화번호 입력에 사용)</p>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}">
+
+        <p style="font-size: 25px;">file 타입(파일선택에 사용)</p>
+        <input type="file" id="myfile" name="myfile">
+
+        <p style="font-size: 25px;">submit과 reset 타입(입력 양식 전송과 초기화에 사용)</p>
+        <form>
+            <label for="name">이름:</label><br>
+            <input type="text" id="name" name="name" value="Suan"><br>
+            <label for="affiliation">소속:</label><br>
+            <input type="text" id="affiliation" name="affiliation" value="SuanLab"><br><br>
+            <input type="submit" value="전송">
+            <input type="reset" value="초기화">
+        </form>
+
+        <p style="font-size: 35px;">회원가입 폼 예제</p>
+        <form name="signUp" action="signUp.jsp" method="post">
+            <fieldset width="500px" height="600px">
+              <legend>회원가입</legend>
+              아이디 : <input type="text" name="id" placeholder="아이디를 입력 해주십시오." required>
+              <button type="button" onclick="alert('사용가능한 아이디 입니다!')">아이디 확인</button><br><br>
+              비밀번호 : <input type="password" placeholder="8글자 이상 입력 해주십시오." required><br><br>
+              생년월일 : <input type="date" name="birthday"><br><br>
+              이메일 : <input type="email" name="email" placeholder="이메일을 기입해주십시오." required><br><br>
+              전화번호 : <input type="tel" name="tel" placeholder="연락처를 기입해주십시오." required><br><br>
+              사이트를 알게된 경로:<br>
+              <input type="checkbox" name="a" value="serch">검색
+              <input type="checkbox" name="a" value="friend">친구
+              <input type="checkbox" name="a" value="recommend">추천
+              <input type="checkbox" name="a" value="adv">광고
+              <input type="checkbox" name="a" value="ect">기타
+            </fieldset>
+            <button type="submit">회원가입</button>
+            <button type="reset">다시 입력</button>
+        </form>
+    </body>
+</html>
